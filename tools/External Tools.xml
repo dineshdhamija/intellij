@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="Fix ESLint" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/camper-web/webapp/node_modules/eslint/bin/eslint.js" />
+      <option name="PARAMETERS" value="--fix $FilePath$ " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Codemod" description="Code modification to make them ES6" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/projects/stash/CSEng/kenobi/buildtools/scripts/codemod.sh" />
+      <option name="PARAMETERS" value="$FilePath$ " />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/stash/CSEng/kenobi/buildtools/scripts" />
+    </exec>
+  </tool>
+  <tool name="Instrument.sh" description="Instrument.sh" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/projects/stash/EC/pcd/camper-web/instrument.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/camper-web" />
+    </exec>
+  </tool>
+  <tool name="Prettier" description="Run Prettier for current file" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="prettier" />
+      <option name="PARAMETERS" value="--write --single-quote $FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

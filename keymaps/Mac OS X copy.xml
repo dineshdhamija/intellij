@@ -1,0 +1,51 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="CloneElement" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="CompileProject">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="CopyElement" />
+  <action id="EditorSelectWord" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+  </action>
+  <action id="Move" />
+  <action id="RenameElement" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Tool_Hansolo_Build Dust in Hansolo Dev">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
+</keymap>
