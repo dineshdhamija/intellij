@@ -3,11 +3,12 @@
     <ignoreFiles list="*.hprof;*.iml;*.ipr;*.iws;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="dust" type="Dust" />
-      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
-      <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping pattern="ezconfig*" type="Properties" />
       <mapping pattern="ezconfig" type="Properties" />
     </extensionMap>
