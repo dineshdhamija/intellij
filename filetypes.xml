@@ -6,6 +6,7 @@
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".prettierrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="camperui-secret-prod" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="camperui-secret" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
