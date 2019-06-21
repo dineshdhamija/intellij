@@ -2,12 +2,10 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.iml;*.ipr;*.iws;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="camperui-secret" type="PLAIN_TEXT" />
       <mapping pattern=".prettierrc" type="PLAIN_TEXT" />
-      <mapping pattern="camperui-secret-prod" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="camperui-secret-prod" type="PLAIN_TEXT" />
+      <mapping pattern="camperui-secret" type="PLAIN_TEXT" />
       <mapping ext="mtb" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
